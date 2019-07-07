@@ -391,6 +391,7 @@
         "show": true,
         "maxSubfolders": 50,
         "naturalSort": true,
-        "ignorecase": true
+        "ignorecase": true,
+        "ignore": ["/private/"]
     }
 }

@@ -11,7 +11,8 @@ const settings = Object.assign({
     show: true,
     maxSubfolders: 50,
     naturalSort: false,
-    ignorecase: true
+    ignorecase: true,
+    ignore: ["/private/"]
 }, allsettings.tree);
 const itemTpl =
         `<div class="item folder">
@@ -70,6 +71,10 @@ const cmpItems = (item1, item2) => {
 };
 
 const update = item => {
+    if(settings.ignore.includes(item.absHref)) {
+        return;
+    }
+
     const subfolders = item.getSubfolders();
     const subLen = subfolders.length;
     const subMax = settings.maxSubfolders;
