@@ -1,5 +1,9 @@
 # h5ai
 
+my custom version of h5ai, with a red / dark install theme and working markdown for math notes
+
+----
+
 [![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github]
 
 A modern HTTP web server index for Apache httpd, lighttpd, and nginx.

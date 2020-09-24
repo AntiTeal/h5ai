@@ -23,6 +23,8 @@
     "txt":              ["*.text", "*.txt"],
     "txt-build":        ["*.pom", "build.xml", "pom.xml"],
     "txt-c":            ["*.c"],
+    "txt-sp":			["*.sp"],
+    "txt-cfg":          ["*.cfg"],
     "txt-cpp":          ["*.cpp"],
     "txt-css":          ["*.css"],
     "txt-diff":         ["*.diff", "*.patch"],

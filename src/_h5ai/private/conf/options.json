@@ -5,7 +5,7 @@
     SHA512 hash of the info page password, the preset password is the empty string.
     Online hash generator: http://md5hashing.net/hashing/sha512
     */
-    "passhash": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+    "passhash": "b07211fbe08631503f9563d552af6712f9b37879ee3502b34b18f55a139254804467a51c8c3aa0bd17717a6246c67bee42abfb581ad36f47d2202bfc7023de80",
 
 
 
@@ -128,9 +128,9 @@
     */
     "download": {
         "enabled": true,
-        "type": "php-tar",
+        "type": "shell-zip",
         "packageName": null,
-        "alwaysVisible": false
+        "alwaysVisible": true
     },
 
     /*
@@ -259,6 +259,8 @@
             "txt": 1,
             "txt-authors": 1,
             "txt-c": 3,
+            "txt-cfg": 3,
+            "txt-sp": 3,
             "txt-cpp": 3,
             "txt-css": 3,
             "txt-diff": 1,
@@ -392,6 +394,6 @@
         "maxSubfolders": 50,
         "naturalSort": true,
         "ignorecase": true,
-        "ignore": ["/private/"]
+        "ignore": ["/private/", "/cypat/"]
     }
 }
