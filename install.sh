@@ -26,4 +26,32 @@ option {
 #root.info #header a {
    color: white;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#toolbar .tool img {
+  fill: white
+}
+
+#view.view-icons .landscape {
+  background: inherit;
+}
 EOL
